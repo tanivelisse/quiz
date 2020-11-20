@@ -1,0 +1,80 @@
+body {
+	font-family: 'Lucida Console', sans-serif;
+	font-size: 18px;
+	background: #db80a9;	
+}
+body,h1,h2, ul{
+	margin:0px;
+	padding:0px;
+}
+ul {
+	list-style-type: none;
+}
+.header-box {
+	width: 60%;
+	position: absolute;
+	top: 10%;
+	left:20%;
+}
+.header {
+	text-align: center;
+	color: #db80a9;
+	letter-spacing: 5px;
+	font-size: 80px;
+	text-shadow:3px 3px 6px  #ba6d90,
+				-3px -3px 6px #fc93c2;
+}
+.content-box-border {
+	height: 400px;
+	width: 60%;
+	position: absolute;
+	top: 30%;
+	left:20%;
+	border-radius: 20px;
+	background: #db80a9;
+	box-shadow: inset 10px 10px 20px #ba6d90, 
+            inset -10px -10px 20px #fc93c2;
+	padding: 16px;
+	text-align: center;
+}
+.content-box {
+	color: #fff;
+	padding: 16px;
+}
+.answers {
+	padding: 16px;
+}
+.answers,.answer-btn,.next-btn {
+	border-radius: 5px;
+	background: #db80a9;
+	box-shadow:  3px 3px 6px #ba6d90, 
+	             -3px -3px 6px #fc93c2;
+	margin-top:16px;
+}
+.answer-btn,.next-btn {
+	padding: 5px;
+}
+.answers:hover,
+.answer-btn:hover ,
+.next-btn:hover {
+	background: linear-gradient(145deg, #ea89b5, #c57398);
+	box-shadow:  3px 3px 6px #ba6d90, 
+             -3px -3px 6px #fc93c2;
+}
+.answers:focus,
+.answer-btn:focus ,
+.next-btn:focus {
+	outline:none;
+	background: #db80a9;
+	box-shadow: inset 3px 3px 6px #ba6d90, 
+            inset -3px -3px 6px #fc93c2;
+}
+
+.answer-btn,.next-btn {
+	font-size: 18px;
+	height: 40px;
+	width: 80px;
+	margin-left: 16px;
+	border:none;
+	color: #fff;
+}
